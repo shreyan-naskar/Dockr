@@ -38,7 +38,7 @@
 
 #ifdef __linux__
 
-#include "clone_stack.hpp"
+#include "include/clone_stack.hpp"
 
 #include <sched.h>      // clone(), namespace flags
 #include <sys/types.h>  // pid_t
