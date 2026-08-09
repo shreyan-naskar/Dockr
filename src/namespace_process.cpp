@@ -1,4 +1,4 @@
-#include "namespace_process.hpp"
+#include "include/namespace_process.hpp"
 
 /*
     src/namespace_process.cpp
@@ -18,7 +18,7 @@
 
 #ifdef __linux__
 
-#include "error.hpp"
+#include "include/error.hpp"
 
 #include <cerrno>      // errno
 #include <sched.h>     // clone()

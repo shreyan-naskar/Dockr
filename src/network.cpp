@@ -1,4 +1,4 @@
-#include "network.hpp"
+#include "include/network.hpp"
 
 /*
     src/network.cpp
@@ -31,7 +31,7 @@
 
 #ifdef __linux__
 
-#include "error.hpp"
+#include "include/error.hpp"
 
 #include <cstdlib>     // std::system()
 #include <iostream>    // std::cout

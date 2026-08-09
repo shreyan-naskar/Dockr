@@ -1,4 +1,4 @@
-#include "filesystem.hpp"
+#include "include/filesystem.hpp"
 
 /*
     src/filesystem.cpp
@@ -19,7 +19,7 @@
 
 #ifdef __linux__
 
-#include "error.hpp"
+#include "include/error.hpp"
 
 #include <cstdlib>      // clearenv(), setenv()
 #include <string>

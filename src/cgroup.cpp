@@ -1,4 +1,4 @@
-#include "cgroup.hpp"
+#include "include/cgroup.hpp"
 
 /*
     src/cgroup.cpp
@@ -27,7 +27,7 @@
 
 #ifdef __linux__
 
-#include "error.hpp"
+#include "include/error.hpp"
 
 #include <cerrno>      // errno
 #include <cstring>     // std::strerror
