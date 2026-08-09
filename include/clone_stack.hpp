@@ -1,5 +1,5 @@
-#ifndef DOCKR_CONFIG_HPP
-#define DOCKR_CONFIG_HPP
+#ifndef DOCKR_CLONE_STACK_HPP
+#define DOCKR_CLONE_STACK_HPP
 
 /*
     include/clone_stack.hpp
